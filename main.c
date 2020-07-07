@@ -1,7 +1,8 @@
 #include <stdio.h>                                      //vkluchenie bibliotek
 #include <malloc.h>                                    //vkluchenie bibliotek
 #include <stdlib.h>                                   //vkluchenie bibliotek
-int main(void) {                                     //nachalo programmi
+int main(int argc, char *argv[])                                      //nachalo programmi
+{
     FILE *Reading,*Writing;
     Reading= fopen("Reading.txt","r");
     Writing=fopen("Writing.txt","w");
